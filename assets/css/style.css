@@ -146,29 +146,46 @@ header ul li a:hover {
 
 /* 22.- Set .banner .images .imgBx css */
 .banner .images .imgBx {
-    position: relative;
-    width: 50%;
-    height: 50vh;
-    background: #ff0;
+  position: relative;
+  width: 50%;
+  height: 50vh;
+  background: #ff0;
 }
 
 /* 24.- Set .banner .images .imgBx:nth-child(3) css */
-.banner .images .imgBx:nth-child(2){
-    background: #f00;
+.banner .images .imgBx:nth-child(2) {
+  background: #f00;
 }
 
 /* 23.- Set .banner .images .imgBx:nth-child(3) css */
-.banner .images .imgBx:nth-child(3){
-    width: 100%;
-    background: #0ff;
+.banner .images .imgBx:nth-child(3) {
+  width: 100%;
+  background: #0ff;
 }
 
 /* 25.- Set .banner .images .imgBx img css */
-.banner .images .imgBx img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.banner .images .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 26.- Make it responsive max-width: 991px */
+@media (max-width: 991px) {
+  .banner {
+    grid-template-columns: 1fr;
+  }
+  header{
+      padding: 20px 40px;
+  }
+  .banner .content{
+      padding: 40px;
+      height: 70vh;
+  }
+  .sci{
+      right: 40px;
+  }
 }
