@@ -57,4 +57,10 @@ header ul li a{
     text-decoration: none;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.5);
+    letter-spacing: 1px;
+}
+
+/* 10.- Set header ul li a:hover css */
+header ul li a:hover{
+    color: rgba(255, 255, 255, 1);
 }
