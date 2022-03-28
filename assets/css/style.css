@@ -31,6 +31,12 @@ header{
     left: 0;
     width: 100%;
     padding: 20px 60px;
+    display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* 6.- Set header .logo img css */
+header .logo img{
+    max-width: 200px;
 }
