@@ -14,9 +14,9 @@
 
 /* 3.- Set .banner .box class */
 .banner .box {
-    position: relative;
-    background: #131f37;
-    height: 100vh;
+  position: relative;
+  background: #131f37;
+  height: 100vh;
 }
 
 /* 4.- Set .banner .box:nth-child(2) */
@@ -25,18 +25,23 @@
 } */
 
 /* 5.- Set style to header css */
-header{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* 6.- Set header .logo img css */
-header .logo img{
-    max-width: 200px;
+header .logo img {
+  max-width: 200px;
+}
+
+/* 7.- Set header ul css */
+header ul {
+  display: flex;
 }
