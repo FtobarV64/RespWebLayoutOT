@@ -116,6 +116,7 @@ header ul li a:hover {
     right: 60px;
     display: flex;
     justify-content: center;
+    gap: 40px;
 }
 
 /* 18.- Set .sci h3 css */
@@ -123,4 +124,9 @@ header ul li a:hover {
     font-weight: 500;
     color: rgba(255, 255, 255, 0.75);
     letter-spacing: 1px;
+}
+
+/* 18.- Set .sci li css */
+.sci li{
+    list-style: none;
 }
