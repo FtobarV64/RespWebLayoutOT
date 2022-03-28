@@ -44,4 +44,10 @@ header .logo img {
 /* 7.- Set header ul css */
 header ul {
   display: flex;
+  gap: 60px;
+}
+
+/* 8.- Set header ul li css */
+header ul li{
+    list-style: none;
 }
