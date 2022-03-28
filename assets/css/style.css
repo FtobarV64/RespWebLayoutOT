@@ -70,9 +70,15 @@ header ul li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 60px;
 }
 
 /* 12.- Set .banner .content .contentBox css */
 .banner .content .contentBox{
     text-align: center;
+}
+
+/* 13.- Set .banner .content .contentBox img css */
+.banner .content .contentBox img{
+    width: 100%;
 }
