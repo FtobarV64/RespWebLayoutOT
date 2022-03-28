@@ -15,11 +15,22 @@
 /* 3.- Set .banner .box class */
 .banner .box {
     position: relative;
-    background: #f00;
+    background: #131f37;
     height: 100vh;
 }
 
 /* 4.- Set .banner .box:nth-child(2) */
-.banner .box:nth-child(2){
+/* .banner .box:nth-child(2){
     background: #f0f;
+} */
+
+/* 5.- Set style to header css */
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 60px;
+    justify-content: space-between;
+    align-items: center;
 }
