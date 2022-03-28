@@ -131,8 +131,13 @@ header ul li a:hover {
   list-style: none;
 }
 
-/* 20.- Set .sci li img */
+/* 20.- Set .sci li img css*/
 .sci li img{
     max-width: 30px;
     height: 30px;
+}
+
+/* 21.- Set .banner .images css */
+.banner .images{
+    background: #fff;
 }
