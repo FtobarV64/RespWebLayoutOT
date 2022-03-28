@@ -189,3 +189,10 @@ header ul li a:hover {
       right: 40px;
   }
 }
+
+/* 27.- Make it responsive max-width: 600px  */
+@media (max-width: 600px){
+    .banner .images .imgBx{
+        width: 100%;
+    }
+}
