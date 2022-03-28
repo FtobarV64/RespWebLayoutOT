@@ -82,3 +82,10 @@ header ul li a:hover{
 .banner .content .contentBox img{
     width: 100%;
 }
+
+/* 14.- Set .banner .content .contentBox p css */
+.banner .content .contentBox p{
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: 300;
+}
