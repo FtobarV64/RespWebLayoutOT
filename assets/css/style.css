@@ -89,3 +89,16 @@ header ul li a:hover{
     color: #fff;
     font-weight: 300;
 }
+
+/* 15.- Set .banner .content .contentBox .btn css */
+.banner .content .contentBox .btn{
+    display: inline-block;
+    font-size: 1.1em;
+    color: #333;
+    background: #fff;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
