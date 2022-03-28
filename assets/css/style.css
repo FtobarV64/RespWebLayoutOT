@@ -51,3 +51,10 @@ header ul {
 header ul li{
     list-style: none;
 }
+
+/* 9.- Set header ul li a css */
+header ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.5);
+}
