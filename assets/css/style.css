@@ -71,3 +71,8 @@ header ul li a:hover{
     justify-content: center;
     align-items: center;
 }
+
+/* 12.- Set .banner .content .contentBox css */
+.banner .content .contentBox{
+    text-align: center;
+}
