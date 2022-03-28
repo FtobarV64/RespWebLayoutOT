@@ -18,3 +18,8 @@
     background: #f00;
     height: 100vh;
 }
+
+/* 4.- Set .banner .box:nth-child(2) */
+.banner .box:nth-child(2){
+    background: #f0f;
+}
