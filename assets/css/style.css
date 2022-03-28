@@ -108,3 +108,12 @@ header ul li a:hover {
 .banner .content .contentBox .btn:hover {
     letter-spacing: 2px;
 }
+
+/* 17.- Set .sci css */
+.sci{
+    position: absolute;
+    bottom: 30px;
+    right: 60px;
+    display: flex;
+    justify-content: center;
+}
