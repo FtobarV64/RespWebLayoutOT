@@ -132,12 +132,22 @@ header ul li a:hover {
 }
 
 /* 20.- Set .sci li img css*/
-.sci li img{
-    max-width: 30px;
-    height: 30px;
+.sci li img {
+  max-width: 30px;
+  height: 30px;
 }
 
 /* 21.- Set .banner .images css */
-.banner .images{
-    background: #fff;
+.banner .images {
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* 22.- Set .banner .images .imgBx css */
+.banner .images .imgBx {
+    position: relative;
+    width: 50%;
+    height: 50vh;
+    background: #ff0;
 }
