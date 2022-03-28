@@ -1,13 +1,20 @@
 /* 1.- We set the page */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 /* 2.- Set .banner class */
-.banner{
-    display: grid;
-    grid-template-columns: 3fr 4fr;
+.banner {
+  display: grid;
+  grid-template-columns: 3fr 4fr;
+}
+
+/* 3.- Set .banner .box class */
+.banner .box {
+    position: relative;
+    background: #f00;
+    height: 100vh;
 }
