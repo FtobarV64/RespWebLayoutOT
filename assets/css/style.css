@@ -152,6 +152,11 @@ header ul li a:hover {
     background: #ff0;
 }
 
+/* 24.- Set .banner .images .imgBx:nth-child(3) css */
+.banner .images .imgBx:nth-child(2){
+    background: #f00;
+}
+
 /* 23.- Set .banner .images .imgBx:nth-child(3) css */
 .banner .images .imgBx:nth-child(3){
     width: 100%;
